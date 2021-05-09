@@ -1,14 +1,21 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import "./App.css";
-
-function Welcome(props) {
-  return <h1>Hello, {props.name}</h1>;
-}
+import AppLayout from "./AppLayout";
+import AppBar from "./AppBar";
+import { AppProvider } from "./AppProvider";
+import Settings from "../Settings";
 
 class App extends Component {
   render() {
-    return <div className="App"> Hello World!</div>;
+    return (
+      <AppLayout>
+        <AppProvider>
+          <AppBar />
+          <Settings />
+        </AppProvider>
+      </AppLayout>
+    );
   }
 }
 
