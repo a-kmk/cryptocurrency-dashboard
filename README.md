@@ -1,3 +1,3 @@
 # cryptocurrency-dashboard
-For TOHacks 2021
+Our submission for For TOHacks 2021
 Created with CodeSandbox
