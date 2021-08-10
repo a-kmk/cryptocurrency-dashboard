@@ -39,8 +39,8 @@ export default function () {
   return (
     <Bar>
       <Logo> Logo </Logo>
-      <ControlButton active name="dashboard" />
-      <ControlButton name="settings" />
+      <ControlButton name="dashboard" />
+      <ControlButton active name="settings" />
     </Bar>
   );
 }
