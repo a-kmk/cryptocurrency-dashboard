@@ -9,7 +9,10 @@ const ConfirmButtonStyled = styled.div`
   ${fontSize1}
   padding: 5px;
   cursor: pointer;
-  ${greenBoxShadow};
+  &:hover {
+    cursor: pointer;
+    ${greenBoxShadow};
+  }
 `;
 
 //centers our grid
