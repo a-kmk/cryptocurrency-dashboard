@@ -44,7 +44,7 @@ const PriceTileStyled = styled(SelectableTile)`
   ${(props) =>
     props.currentFavorite &&
     css`
-      ${greenBoxShadow}
+      ${greenBoxShadow};
       pointer-events: none;
     `}
 `;
